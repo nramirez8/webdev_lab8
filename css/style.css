@@ -44,31 +44,27 @@
 
 /* Sidebar CSS rules */
 
-#sidebar-container {
+#sidebar {
   position: fixed;
+  right:0%;
   background-color: red;
   height: 100%;
   width: 20%;
-  right:0%;
 }
 
-#sidebar-container ul {
+#sidebar ul {
   list-style-type: none;
-  padding: 0;
   text-align: center;
+  padding: 0;
 }
 
-#sidebar-container ul li {
-  background-color: #000;  
-}
-
-#sidebar-container ul li a {
+#sidebar ul li a {
   display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
 }
 
-#sidebar-container ul li a:hover {
-  
+#sidebar ul li a:hover {
+  background-color: #000;
 }
