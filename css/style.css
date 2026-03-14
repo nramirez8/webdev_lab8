@@ -1,35 +1,45 @@
 /* Navigation bar CSS rules */
 
-#navbar-container {
+#main-navbar {
   background-color: blue;
   overflow: hidden;
+}
+
+#navbar-container {
   float: left;
   width: 100%;
+  position: relative;
 }
 
 #navbar-container ul {
-  float: left;
-  position: relative;
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  position: relative;
   left: 50%;
-  display: block;
-  text-decoration: underline overline;  
-  list-style-type: none;
+  float: left;
 }
 
 #navbar-container ul li {
-  background-color: #000;
   float: left;
   position: relative;
   right: 50%;
+  display: block;
 }
 
 #navbar-container ul li a {
   display: block;
   padding: 10px 20px;
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
+}
+
+#navbar-container ul li a:hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
 }
 
 /* Sidebar CSS rules */
@@ -39,6 +49,7 @@
   background-color: red;
   height: 100%;
   width: 20%;
+  right:0%;
 }
 
 #sidebar-container ul {
@@ -49,7 +60,6 @@
 
 #sidebar-container ul li {
   background-color: #000;  
-  right:0%;
 }
 
 #sidebar-container ul li a {
@@ -57,4 +67,8 @@
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
+}
+
+#sidebar-container ul li a:hover {
+  
 }
