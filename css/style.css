@@ -1,29 +1,32 @@
 #navbar-container {
-  float: left;
   background-color: blue;
   overflow: hidden;
-  position: relative;
-  margin: 0;
-  padding: 0;
+  float: left;
+  width: 100%;
 }
 
 #navbar-container ul {
   float: left;
-  width: 100%;
   position: relative;
+  margin: 0;
+  padding: 0;
+  left: 50%;
   display: block;
-  right: 50%;
-  text-decoration: none;
-  background-color: #000;
+  text-decoration: underline overline;  
+  list-style-type: none;
 }
 
 #navbar-container ul li {
-  list-style-type: none;
-  position: relative;
-  left: 50%;
+  background-color: #000;
   float: left;
+  position: relative;
+  right: 50%;
+
+}
+
+#navbar-container ul li a {
   display: block;
   padding: 10px 20px;
-  text-decoration: underline overline;  
+  text-decoration: none;
   color: #fff;
-} 
+}
