@@ -1,3 +1,5 @@
+/* Navigation bar CSS rules */
+
 #navbar-container {
   background-color: blue;
   overflow: hidden;
@@ -21,7 +23,6 @@
   float: left;
   position: relative;
   right: 50%;
-
 }
 
 #navbar-container ul li a {
@@ -29,4 +30,31 @@
   padding: 10px 20px;
   text-decoration: none;
   color: #fff;
+}
+
+/* Sidebar CSS rules */
+
+#sidebar-container {
+  position: fixed;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar-container ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#sidebar-container ul li {
+  background-color: #000;  
+  right:0%;
+}
+
+#sidebar-container ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
 }
